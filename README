@@ -1,15 +1,21 @@
-### VPN Node Configuration Tempates README
+# Config Service
 
-### Templates for Proxy Only or Mixed instalation VPN / PROXY
-### Ajust your installed dispatcher.ini and sdp.json according you needs.
+These files are given conifguration data objects and run through handlebarsjs templatling engine.
 
-## Template for Proxy Only
+You can make complex webpage with it, so slick config files it certainly can do. use {{{ }}} tripple to get RAW not HTML escaped data.
 
-* dispatcherproxy.ini 
-* sdpproxy.json
+# Basic Syntax
 
-## Template for VPN and Proxy
+https://handlebarsjs.com/guide/expressions.html#basic-usage
 
-* dispatchervpnproxy.ini 
-* sdpvpnproxy.json
+# Conditionals
 
+https://handlebarsjs.com/guide/builtin-helpers.html
+
+# Partials
+
+https://handlebarsjs.com/guide/partials.html
+
+# Blocks & Interaction Helpers
+
+https://handlebarsjs.com/guide/block-helpers.html
